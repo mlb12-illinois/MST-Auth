@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>MSTA-AuthenticationService</groupId>
+  <artifactId>MSTA-AuthenticationService</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>15</release>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+ 	 <dependency>
+	  <groupId>com.datastax.cassandra</groupId>
+	  <artifactId>cassandra-driver-core</artifactId>
+	  <version>[3.10.2]</version>
+	  <classifier>shaded</classifier>
+	    <!-- Because the shaded JAR uses the original POM, you still need
+	        to exclude this dependency explicitly: -->
+	    <exclusions>
+	        <exclusion>
+	        <groupId>io.netty</groupId>
+	        <artifactId>*</artifactId>
+	        </exclusion>
+	    </exclusions>
+	</dependency>
+	<dependency>
+	        <groupId>software.aws.mcs</groupId>
+	        <artifactId>aws-sigv4-auth-cassandra-java-driver-plugin_3</artifactId>
+	        <version>3.0.3</version>
+	</dependency>
+ 
+    <dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>[20090211,)</version>
+	</dependency>
+	
+  </dependencies>
+</project>
