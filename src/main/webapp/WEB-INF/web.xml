@@ -14,7 +14,7 @@
 	</welcome-file-list>
 	<servlet>
 		<servlet-name>MSTA_Service</servlet-name>
-		<servlet-class>mst_auth_library.MST_Auth_ServerServlet</servlet-class>
+		<servlet-class>mst_auth_client.MSTA_MSTA_Servlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>MSTA_Service</servlet-name>
