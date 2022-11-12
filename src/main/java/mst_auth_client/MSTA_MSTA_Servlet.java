@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 
 import org.json.JSONException;
 
@@ -23,8 +24,8 @@ public class MSTA_MSTA_Servlet extends MST_Auth_ClientServlet {
 	
 	//private static String CASSANDRA_AUTH = "";
 	//private static String CASSANDRA_USER = ""; 
-	//private static String CASSANDRA_PASSWORD = ""; 
-
+	//private static String CASSANDRA_PASSWORD = "";
+	
 	public MST_Auth_Microservice  GetService () {	
 		//System.out.println("MSTA Server GetService");
 		MSTA_MSTA MSTA_msta = new MSTA_MSTA();// override this
@@ -34,7 +35,9 @@ public class MSTA_MSTA_Servlet extends MST_Auth_ClientServlet {
 
 	public void init(ServletConfig config) throws ServletException {
 		super.init(config);
+		 System.out.println("MST-Auth init");
 		CassandraCreate();
+		//AuthListen();
 		//String input = "{\"sending_servicename\":\"MSTABusiness\",\"sending_serviceid\":\"237367ff-ed9b-4d9c-b636-ad0d28ac5f62\",\"create_timestamp\":\"2022-11-02 18:32:25.71\",\"sending_instanceid\":\"fe8a5797-1cd2-4083-82b6-3d3ba9e40a49\",\"root_msgid\":\"a42d8262-0d55-49f9-aef6-5ffc8bcd35df\",\"receiving_serviceid\":\"0534fe29-3dc4-4641-bc94-a939d0d8ba71\",\"msgid\":\"3f25c69a-1794-401f-a684-02532ba7439f\",\"receiving_servicename\":\"MSTADataProvider\",\"parent_msgid\":\"6628f71d-eb88-4d8e-9528-8f7b3350538a\"}";
 		//String jsonquery = "INSERT INTO mstauth.service_tree JSON '" + input +"'";
 		//CassandraInsert(jsonquery);

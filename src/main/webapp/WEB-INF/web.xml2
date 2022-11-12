@@ -10,12 +10,5 @@
 		<welcome-file>default.htm</welcome-file>
 	</welcome-file-list>
 
- 	<servlet>
-		<servlet-name>MSTA_Service</servlet-name>
-		<servlet-class>mst_auth_client.MSTA_MSTA_Servlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>MSTA_Service</servlet-name>
-		<url-pattern>/MST_Auth.html</url-pattern>
-	</servlet-mapping>
+
 </web-app>

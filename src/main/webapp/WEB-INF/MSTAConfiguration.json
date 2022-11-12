@@ -1,8 +1,8 @@
 {
 	"MSTA_DO_INIT": "O",
 	"MyHash": "1as6iYxMSdgeirMcJBgvBD1gqx86Mw5YVwso87EcgxE=",
-	"MSTA_CONNECTION_URL": "http://localhost:8080/MST-AUTH/Register.html",
-	"MSTA_REST_URL": "http://localhost:8080/MST-AUTH/Register.html",
+	"MSTA_CONNECTION_URL": "ws://localhost:8080/MST-Auth/Register",
+	"MSTA_REST_URL": "http://localhost:8080/MST-Auth/MST_Auth.html",
 	"MyMicroserviceID": "c8218e1a-0189-453b-8bab-8ff2633a7b97",
 	"MyPublic": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
 	"MicroserviceGraph": [
