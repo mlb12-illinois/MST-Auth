@@ -1,44 +1,5 @@
 [{"microservice" : {
-	"MSTA_DO_INIT": "*",
-	"MSTA_CONNECTION_TIMEOUT":"100000",
-	"MSTA_CONNECTION_URL": "ws://localhost:8080/MST-Auth/Register",	
-	"MSTA_RESPONSE_TIMEOUT":"100000",
-	"MSTA_TIMEOUT_WAIT":"3000",
-	"MSTA_TRIES":"3",
-	"MyPublic": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
-
-	"buildKey" : " ",
-	"deploymentKey" : " ",
-
-	"microserviceName": "MSTAAuth",
-	"microserviceId":"c8218e1a-0189-453b-8bab-8ff2633a7b97",
-	
-	"keystorePassword": "1as6iYxMSdgeirMcJBgvBD1gqx86Mw5YVwso87EcgxE=",
-	"instanceId" : "########-####-####-####-############",
-	"authorizationList":[
-		{"microserviceName":"MSTAGateway","uri":"http://localhost:8080/MSTA-Gateway/MSTAGateway.html","microserviceId":"1a0f2305-e311-4fb3-aa1b-bb91a192c28d",
-			"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
-			"instanceList" : [],
-			"authorizations":[{"RECEIVE":["*"]}, {"SEND":["*"]}]},
-		{"microserviceName":"MSTABusiness","uri":"http://localhost:8080/MSTA-BusinessService/MSTABusiness.html","microserviceId":"237367ff-ed9b-4d9c-b636-ad0d28ac5f62",
-			"GraphEncryption" : "NONE",
-			"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
-			"instanceList" : [],
-			"authorizations":[{"RECEIVE":["*"]}, {"SEND":["*"]}]},
-		{"microserviceName":"MSTAAuthorization","uri":"http://localhost:8080/MSTA-AuthorizationService/MSTAAuthorization.html","microserviceId":"4e07ef56-6213-11ed-9b6a-0242ac120002",
-			"GraphEncryption" : "NONE",
-			"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
-			"instanceList" : [],
-			"authorizations":[{"RECEIVE":["*"]}, {"SEND":["*"]}]},
-		{"microserviceName":"MSTADataProvider","uri":"http://localhost:8080/MSTA-DataProvider/MSTADataProvider.html","microserviceId":"0534fe29-3dc4-4641-bc94-a939d0d8ba71",
-			"GraphEncryption" : "NONE",
-			"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
-			"instanceList" : [],
-			"authorizations":[{"RECEIVE":["*"]}, {"SEND":["*"]}]}
-	]
-}},
-{"microservice" : {
-	"MSTA_DO_INIT": "O",
+	"MSTA_DO_INIT": "S",
 	"MSTA_CONNECTION_URL": "ws://localhost:8080/MST-Auth/Register",
 	"MSTA_RESPONSE_TIMEOUT":"100000",
 	"MSTA_TIMEOUT_WAIT":"3000",
@@ -79,14 +40,14 @@
 	"MSTA_TRIES":"3",
 	"MyPublic": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
 
-	"buildKey" : "build.IVLY5HRwVomubrwVxY75",
-    "deploymentKey" : "deploy.a22_zMsAlX6H1d7KVaQQ",
-	
-    "microserviceId" : "e6088953-dcc0-47bd-9e28-a3450902325d",
-    "microserviceName" : "MSTADataProvider",
+	"buildKey" : "build.oS/LGMPjScfITx./dhqE",
+    "deploymentKey" : "deploy.8KQpwXei4alC3RYw4cGu",
+
+    "microserviceId" : "d3035fd0-d764-4383-8e81-aeb6c9ffc20f",
+    "microserviceName" : "MSTAAuthorization",
 	
 	"keystorePassword": "1as6iYxMSdgeirMcJBgvBD1gqx86Mw5YVwso87EcgxE=",
-	"instanceId" : "e6088953-dcc0-47bd-9e28-a3450902325d",
+	"instanceId" : "d3035fd0-d764-4383-8e81-aeb6c9ffc20f",	
 	"authorizationList":[
 		{"microserviceName":"MSTABusiness","uri":"http://localhost:8080/MSTA-BusinessService/MSTABusiness.html","microserviceId":"f34e5ca4-9366-4da0-93cc-ff2e7bede13e",
 			"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
@@ -97,7 +58,6 @@
 			"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
 			"instanceList" : [],
 			"authorizations":[{"SEND":["POST"]},{"RECEIVE":["POST"]}]}]
-			
 }},	
 {"microservice" : {
 	"MSTA_DO_INIT": "S",
@@ -131,7 +91,7 @@
 			"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
 			"instanceList" : [],
 			"authorizations":[{"FORWARD":["GET","PUT","POST"]}]},
-		{"microserviceName":"MST_Auth","uri":"http://localhost:8080","microserviceId":"c8218e1a-0189-453b-8bab-8ff2633a7b97",
+		{"microserviceName":"MST_Auth","uri":"http://localhost:8080/MST-Auth/MST_Auth.html","microserviceId":"c8218e1a-0189-453b-8bab-8ff2633a7b97",
 			"GraphEncryption" : "NONE",
 			"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
 			"instanceList" : [],
@@ -146,14 +106,14 @@
 	"MSTA_TRIES":"3",
 	"MyPublic": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
 
-	"buildKey" : "build.oS/LGMPjScfITx./dhqE",
-    "deploymentKey" : "deploy.8KQpwXei4alC3RYw4cGu",
-
-    "microserviceId" : "d3035fd0-d764-4383-8e81-aeb6c9ffc20f",
-    "microserviceName" : "MSTAAuthorization",
+	"buildKey" : "build.IVLY5HRwVomubrwVxY75",
+    "deploymentKey" : "deploy.a22_zMsAlX6H1d7KVaQQ",
+	
+    "microserviceId" : "e6088953-dcc0-47bd-9e28-a3450902325d",
+    "microserviceName" : "MSTADataProvider",
 	
 	"keystorePassword": "1as6iYxMSdgeirMcJBgvBD1gqx86Mw5YVwso87EcgxE=",
-	"instanceId" : "d3035fd0-d764-4383-8e81-aeb6c9ffc20f",	
+	"instanceId" : "e6088953-dcc0-47bd-9e28-a3450902325d",
 	"authorizationList":[
 		{"microserviceName":"MSTABusiness","uri":"http://localhost:8080/MSTA-BusinessService/MSTABusiness.html","microserviceId":"f34e5ca4-9366-4da0-93cc-ff2e7bede13e",
 			"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
@@ -164,4 +124,5 @@
 			"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
 			"instanceList" : [],
 			"authorizations":[{"SEND":["POST"]},{"RECEIVE":["POST"]}]}]
+			
 }}]		   

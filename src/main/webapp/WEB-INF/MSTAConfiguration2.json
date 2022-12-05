@@ -1,0 +1,75 @@
+{
+	"MSTA_DO_INIT": "S",
+	"MyHash": "1as6iYxMSdgeirMcJBgvBD1gqx86Mw5YVwso87EcgxE=",
+	"MSTA_CONNECTION_URL": "ws://localhost:8080/MST-Auth/Register",
+	"MSTA_REST_URL": "http://localhost:8080/MST-Auth/MST_Auth.html",
+	"MyMicroserviceID": "c8218e1a-0189-453b-8bab-8ff2633a7b97",
+	"MyPublic": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
+	"MicroserviceGraph": [
+		{
+			"GraphName": "MSTAGateway",
+			"GraphURI": "http://localhost:8080/MSTA-Gateway/MSTAGateway.html",
+			"GraphID": "d1378e62-a8a3-483a-9971-b637de0a7406",
+			"GraphEncryption": "NONE",
+			"GraphPublic": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
+			"GraphAuthorizations": [
+				{
+					"RECEIVE": [
+						"POST"
+					]
+				}
+			]
+		},
+		{
+			"GraphName": "MSTAAuthorization",
+			"GraphURI": "http://localhost:8080/MSTA-AuthorizationService/MSTAAuthorization.html",
+			"GraphID": "d1378e62-a8a3-483a-9971-b637de0a7406",
+			"GraphEncryption": "NONE",
+			"GraphPublic": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
+			"GraphAuthorizations": [
+				{
+					"RECEIVE": [
+						"POST"
+					]
+				}
+			]
+		},
+		{
+			"GraphName": "MSTADataProvider",
+			"GraphURI": "http://localhost:8080/MSTA-DataProvider/MSTADataProvider.html",
+			"GraphID": "0534fe29-3dc4-4641-bc94-a939d0d8ba71",
+			"GraphEncryption": "NONE",
+			"GraphPublic": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
+			"GraphAuthorizations": [
+				{
+					"RECEIVE": [
+						"POST"
+					]
+				}
+			]
+		},
+		{
+			"GraphName": "MSTABusiness",
+			"GraphURI": "http://localhost:8080/MSTA-BusinessService/MSTABusiness.html",
+			"GraphID": "237367ff-ed9b-4d9c-b636-ad0d28ac5f62",
+			"GraphEncryption": "NONE",
+			"GraphPublic": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuTNhwvX2F1C3GugI1bFTTGQSx/yROTckkQIwuoaIHJsbx688di9akGjDRNvA8rL/S1Clkkil95LAlSDWTq/PvfTbpfJ7U6P745Xo3lYRGwpkjqR77FCi+17F9g5EdCTvNzMsoNcqDPF93lrQwKTUbMswLiSVlAUlr/IcWEt7PI2dl0HzOQu5meAniC0J5BOPImxEtInaePgDgOxGofk185k/NjPGqURfvc+IMfgllpcBZlj2novrFDHilcEjEb4aWeUsUL3vVAG6Hxacze2WpaQ2l3vtmvlSMJEwG4H0PWZ1uY4rpgx4RZbTSgqwiX/m+8+tFRvdot9G3dHZ6FQJwIDAQAB",
+			"GraphAuthorizations": [
+				{
+					"RECEIVE": [
+						"POST"
+					]
+				}
+			]
+		}
+	],
+	"MyMicroserviceName": "MST_Auth",
+	"MyURI": "http://localhost:8080/MST-Auth/MST_Auth.html",
+	"MSTA_RESPONSE_TIMEOUT": "100000",
+	"MSTA_TIMEOUT_WAIT": "3000",
+	"MSTA_CONNECTION_TIMEOUT": "100000",
+	"MSTA_TRIES": "3",
+	"MyInstanceID": "########-####-####-####-############"
+}
+   
+ 
